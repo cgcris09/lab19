@@ -1,0 +1,11 @@
+<html>
+<body>
+ 
+<?php
+
+$salt = '$1$imq.0osa$';
+echo crypt('12345', $salt);
+?>
+ 
+</body>
+</html>
